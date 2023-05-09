@@ -1,5 +1,8 @@
 # LINKDb
-Aprire attraverso visual studio code la cartella creata sul desktop, avviare un nuovo terminale e creare un progetto c# attraverso il comando dotnet new console. 
+Aprire attraverso visual studio code la cartella creata sul desktop, avviare un nuovo terminale e creare un progetto c#.
+### 
+    dotnet new console \\ comando per creare progetto c#
+###
 A questo punto si può iniziare a lavorare sul progetto.
 
 In questo programma ci occupiamo dell'ordinamento dei dati di un Db attraverso il linguaggio Linq(Langugage INtegrate Query); linguaggio che permette di inserire delle query all'interno del codice c#.
@@ -17,7 +20,7 @@ Questa query integra C# e Linq e serve per ordinare gli artisti in ordine di Art
 ###
     foreach (var artista in tblArtist)  // foreach che passa tutti i record e poi stampa tutti i nomi degli artisti 
     {
-        Console.WriteLine($"{artista.Name}");
+    Console.WriteLine($"{artista.Name}");
     }
     Console.WriteLine(temporanea);
 ###
