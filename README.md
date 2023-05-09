@@ -12,7 +12,11 @@ Dopo aver aggiunto il file del Db alla cartella, si esegue il collegamento trami
 ###
     SQLiteConnection cn1 = new SQLiteConnection("chinook.db");
 ###
-A questo punto dobbiamo aggiungere le librerie per usare sql; per prima cosa sul terminale aggiungiamo i pacchetti tramite add package sqlite-net-pcl e poi aggiungiamo nel program.cs la libreria using SQlite.
+A questo punto dobbiamo aggiungere le librerie per usare sqLite per prima cosa sul terminale aggiungiamo i pacchetti tramite 
+###
+    add package sqlite-net-pcl // aggiunge pacchetti per libreria usingSQlite
+###
+e poi aggiungiamo nel program.cs la libreria using SQlite.
 ###
     var temporanea = tblArtist.OrderByDescending(x => x.Name).Max(y=>y.ArtistId)  // lambda expression 
 ###
