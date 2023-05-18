@@ -18,7 +18,7 @@ A questo punto dobbiamo aggiungere le librerie per usare sqLite per prima cosa s
 ###
 e poi aggiungiamo nel program.cs la libreria using SQlite.
 ###
-    var temporanea = tblArtist.OrderByDescending(x => x.Name).Max(y=>y.ArtistId)  // lambda expression 
+    var temporanea = tblArtist.OrderByDescending(x => x.Name).Max(y=>y.ArtistId)  // lambda espression 
 ###
 Questa query integra C# e Linq e serve per ordinare gli artisti in ordine di ArtistId e Name. Il Max va a generare in automatico un ciclo foreach che confronta tutti gli artisti.
 ###
